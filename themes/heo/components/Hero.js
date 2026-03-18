@@ -396,7 +396,7 @@ function TodayCard({ cRef, siteInfo }) {
         {/* 封面图 */}
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
-          src={siteInfo?.pageCover}
+          src="/images/ganhuodashi.jpg"   // ← 修改成你的本地静态图片路径
           id='today-card-cover'
           className={`${
             isCoverUp ? '' : ' pointer-events-none'
