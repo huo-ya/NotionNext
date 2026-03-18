@@ -6,14 +6,8 @@ import { siteConfig } from '@/lib/config'
  */
 export default function PoweredBy(props) {
   return (
-    <div className={`inline text-sm font-serif ${props.className || ''}`}>
-      <span className='mr-1'>Powered by</span>
-      <a
-        href='https://blog.230235.xyz'
-        className='underline justify-start'>
-        NotionNext {siteConfig('VERSION')}
-      </a>
-      .
+    <div className={`inline text-sm ${props.className || ''}`}>
+      © 2026-2099 干货大师
     </div>
   )
 }
